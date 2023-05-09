@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/all.min.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/admin.css">
+    <title>admin page</title>
+</head>
+<body>
+  <header class="header ">
+    
+    <div class="container">
+     <div class="menuInMd">
+     <div class="close-nav">
+       <i class="fa-solid fa-xmark text-white" id="closeNav"></i>
+     </div>
+     
+     <div class="links-inMd ">
+       
+       <ul>
+         <li class="nav2-item  "><a href="index.html">Home</a></li>
+         <li class="nav2-item"><a href="about.html">About</a></li>
+         <li class="nav2-item"><a href="#">Our Menu</a></li>
+         <li class="nav2-item"><a href="#">Pastries</a></li>
+         <li class="nav2-item"><a href="login.html">Log In</a></li>
+         <li class="nav2-item"><a href="shop.html">Online Shop</a></li>
+         <li class="nav2-item" ><a href="#">Contact</a></li>
+       </ul>
+     </div>
+   
+     <div class="footer-sec2 my-5 border-top">
+       <div class="container">
+         
+         <div class="d-flex justify-content-between mt-3">
+           <span class="pb-3">© Copyright PatioTime WordPress Theme for Restaurant & Cafe.</span>
+           <a href="" class="pb-3"><i class="fa-solid fa-location-dot me-2"></i> <span>Silk St, Barbican, London EC2Y 8DS, UK</span></a>
+           <a href="" class="pb-3"><i class="fa-solid fa-phone-flip me-2"></i><span>+972 59‑461‑5214</span></a>
+           <a href="" class="pb-3"><i class="fa-regular fa-envelope me-2"></i><span>asim.nots@gmail.com</span></a>
+         </div>
+       </div>
+     </div>
+   </div>
+   </div>
+   <nav class="navbar show-navbar navbar-expand-lg navbar-light pt-3 fixed-top">
+     <div class="container">
+       <!--  d-flex justify-content-center -->
+      
+         <div class="collapse navbar-collapse  d-flex justify-content-center" id="navbarSupportedContent">
+           <div class="nav-icon-inMd"  >
+             <a href="#" id="showMdNavbar" ><i class="fa-solid fa-bars text-black" ></i></a>
+           </div>
+            <div class="links">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                 <li class="nav-item">
+                     <a class="nav-link  text-capitalize px-0 mx-3 me-3" aria-current="page" href="#">Home</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3" href="about.html">about</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3" href="#">MENUS</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3" href="#">PASTRIES</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3" href="shop.html">SHOP</a>
+                 </li>
+                 </ul>
+               </div>
+                 <div class="logo-nav text-center">
+                   <img src="assets/img/pastry-logo-15.jpg" alt="">
+                 </div>
+                 <div class="links">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3 " aria-current="page" href="#">CATERING</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3" href="#">BLOG</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link text-capitalize px-0 mx-3 me-3" href="#">CONTACT</a>
+                   </li>
+                   
+                   <li class="icon">
+                     <i class="fa-solid fa-magnifying-glass ms-3"></i> 
+                   </li>
+                   <li class="icon">
+                     <a href="login.html"><i  class="fa-solid fa-user ms-3"></i></a>  
+                   </li> 
+                   <li class="icon">
+                     <i class="fa-solid fa-bag-shopping ms-3"></i>
+                   </li>
+                 </ul>
+                 
+                      
+                 
+               </div>
+             
+         </div>
+     </div>
+ </nav>
+  </header>
+    <div class="container">
+      <div id="updateDiv" >
+        <a href="#" id="claseUpdate" ><i class="fa-sharp fa-solid fa-circle-xmark fa-fade fa-xl" style="color: #b92d42;"></i></a>
+        <label for="foodNameInput">Food Name:</label>
+        <input class="saveName" type="text" id="foodNameInput">
+        <br>
+        <label for="foodPriceInput">Food Price:</label>
+        <input class="savePrice" type="text" id="foodPriceInput">
+        <br>
+        <button class="save" id="saveButton" >Save</button>
+      </div>
+    <div class="row" id="b">
+      
+      </div>
+      <hr>
+      <div class="available-product" id="availableProduct">
+      <!-- <div class=" Available my-5 d-flex justify-content-between align-items-center">
+       <div class="apastries  d-flex justify-content-between align-items-center">
+        <div class="apastrie-img"> <img src="assets/img/prodect1.jpg" class="w-100" alt=""></div>
+        <div class="apastrie-name"> <span>name</span> </div>
+        <div class="apastrie-price"><span>$200</span></div> 
+       </div>
+        <div class="buttons">
+        <button class="btn btn-outline-secondary me-2 " type="reset" id="clear">clear</button>
+        </div>
+      </div> -->
+      
+     
+       
+    </div>
+    
+       
+    </div>
+
+    <script src="vendor/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/admin.js"></script>
+
+</body>
+</html>

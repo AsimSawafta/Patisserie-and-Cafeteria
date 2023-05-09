@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jost{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+}
+.cormorant{
+    font-family: 'Cormorant Garamond', serif;
+}
+@media screen and (max-width:1030px){
+    .header{
+        height: 0;
+    }
+}
+.shop-sec1{
+    background-image: url('../img/shop sec1.jpg');
+padding: 140px;
+background-attachment:fixed ;
+background-size: cover;
+}
+.shop-sec1 h1{
+    font-size: 42px;
+
+font-weight: 500;
+
+line-height: 42px;
+
+color: rgb(255, 255, 255);
+margin-top: 20px;
+}
+.shop-sec1 span{
+    font-size: 12px;
+
+    font-weight: 400;
+    
+    line-height: 19.2px;
+    
+    color: rgb(255, 255, 255);
+}
+.product1-img{
+    width: 90px;
+    height: 100px;
+    margin-right: 20px;
+}
+.shop-sec2 .s3{
+    font-size: 14px;
+
+    font-weight: 500;
+    
+    line-height: 18.9px;
+}
+.product1-name .s1{
+/* Font color: rgb(221, 89, 3) */
+font-size: 16px;
+
+    font-weight: 600;
+    
+    line-height: 19.2px;
+
+}
+.product1-name .s2{
+    font-size: 14px;
+
+    font-weight: 400;
+    
+    line-height: 22.4px;
+}
+.product-categoties .varieties{
+    border-bottom: 1px solid rgba(0, 0, 0 ,0.15);
+}
+.product-categoties h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.9px;
+   
+}
+
+.product-categoties .varieties .s1{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.product-categoties .varieties .s2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+.pastrie-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.pastries .pastrie-img{
+    width: 250px;
+    height: 250px;
+}
+.add-btn{
+ opacity: 0;
+position: absolute;
+
+bottom: 0px;
+transition: 0.5s;
+/* margin: 0 auto; */
+
+}
+.pastrie-img:hover .add-btn{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+.pastrie-img .add-btn button{
+    border: none;
+}
+.pastrie-name p{
+
+font-size: 21px;
+font-weight: 500;
+
+line-height: 28.35px;
+
+color: rgba(0, 0, 0,1);
+}
+.pastrie-name span{
+    font-size: 16px;
+font-weight: 400;
+
+line-height: 25.6px;
+
+color: rgba(0, 0, 0,0.7);
+    
+}
